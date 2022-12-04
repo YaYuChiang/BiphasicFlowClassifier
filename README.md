@@ -8,7 +8,7 @@ please refer to the file requirements.txt
 # Run the Python script
 if you already have installed python interpretor and such python packages as mentioned above
 
-you run the GUI by
+you could run the GUI by
 `python gui_qt.py`
 
 # Testing the model
