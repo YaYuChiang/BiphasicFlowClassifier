@@ -8,7 +8,7 @@ please refer to the file requirements.txt
 # Run the Python script
 if you already have installed python interpretor and such python packages as mentioned above
 
-you could run the GUI by
+you run the GUI by
 `python gui_qt.py`
 
 # Testing the model
@@ -22,7 +22,7 @@ there are 2 experiments so far
 # Training your own dataset
 prepare .csv data, you should obey the format of .csv files in folder training_data and test_data
 
-you may replace the .csv files because the default paths just is them that you train without choosing .csv files again
+you may replace the .csv files because the default paths just are them that you train models without choosing .csv files again
 
 # Make an executable file
 you use pyinstaller to build a .exe file

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>653</width>
-    <height>599</height>
+    <width>743</width>
+    <height>648</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>100</y>
-      <width>631</width>
-      <height>461</height>
+      <y>110</y>
+      <width>721</width>
+      <height>491</height>
      </rect>
     </property>
     <property name="title">
@@ -29,10 +29,10 @@
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>530</x>
-       <y>270</y>
-       <width>91</width>
-       <height>23</height>
+       <x>560</x>
+       <y>290</y>
+       <width>151</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -44,7 +44,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>71</width>
+       <width>111</width>
        <height>20</height>
       </rect>
      </property>
@@ -55,15 +55,15 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Type of Liquid?</string>
+      <string>Type of Liquid</string>
      </property>
     </widget>
     <widget class="QGroupBox" name="groupBox">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
-       <width>611</width>
+       <y>140</y>
+       <width>701</width>
        <height>71</height>
       </rect>
      </property>
@@ -159,7 +159,7 @@
        <rect>
         <x>410</x>
         <y>20</y>
-        <width>101</width>
+        <width>121</width>
         <height>16</height>
        </rect>
       </property>
@@ -213,9 +213,9 @@
     <widget class="QComboBox" name="comboBox_experiment">
      <property name="geometry">
       <rect>
-       <x>280</x>
+       <x>380</x>
        <y>20</y>
-       <width>271</width>
+       <width>331</width>
        <height>20</height>
       </rect>
      </property>
@@ -223,7 +223,7 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>210</x>
+       <x>290</x>
        <y>20</y>
        <width>81</width>
        <height>16</height>
@@ -237,9 +237,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>190</y>
-       <width>611</width>
-       <height>61</height>
+       <y>210</y>
+       <width>701</width>
+       <height>71</height>
       </rect>
      </property>
      <property name="title">
@@ -250,8 +250,8 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>591</width>
-        <height>31</height>
+        <width>681</width>
+        <height>41</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_method">
@@ -267,9 +267,9 @@
     <widget class="QComboBox" name="comboBox_type_liquid">
      <property name="geometry">
       <rect>
-       <x>90</x>
+       <x>120</x>
        <y>20</y>
-       <width>81</width>
+       <width>121</width>
        <height>20</height>
       </rect>
      </property>
@@ -283,9 +283,9 @@
     <widget class="QTextEdit" name="textEdit_res">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>300</y>
-       <width>611</width>
+       <x>0</x>
+       <y>330</y>
+       <width>711</width>
        <height>151</height>
       </rect>
      </property>
@@ -295,8 +295,8 @@
       <rect>
        <x>10</x>
        <y>50</y>
-       <width>611</width>
-       <height>71</height>
+       <width>701</width>
+       <height>91</height>
       </rect>
      </property>
      <property name="title">
@@ -307,8 +307,8 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>591</width>
-        <height>47</height>
+        <width>681</width>
+        <height>61</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_liquid_vals"/>
@@ -320,102 +320,18 @@
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>631</width>
-      <height>101</height>
+      <width>721</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="title">
      <string>Training</string>
     </property>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>40</y>
-       <width>511</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
-      <item>
-       <widget class="QLabel" name="label_11">
-        <property name="text">
-         <string>Train data</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="lineEdit_trainPath">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>1</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_setTrainPath">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>set</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>70</y>
-       <width>511</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_5">
-      <item>
-       <widget class="QLabel" name="label_12">
-        <property name="text">
-         <string> Test data</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="lineEdit_testPath">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>1</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_setTestPath">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>set</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
+       <y>20</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -429,18 +345,18 @@
       <rect>
        <x>130</x>
        <y>20</y>
-       <width>211</width>
-       <height>20</height>
+       <width>431</width>
+       <height>21</height>
       </rect>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_training">
      <property name="geometry">
       <rect>
-       <x>530</x>
-       <y>70</y>
+       <x>620</x>
+       <y>80</y>
        <width>91</width>
-       <height>23</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -453,6 +369,108 @@
       <string>Training</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_setTestPath">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>80</y>
+       <width>75</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>find</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_testPath">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>80</y>
+       <width>441</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>1</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>80</y>
+       <width>81</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Test data</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>81</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Train data</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_trainPath">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>50</y>
+       <width>441</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>1</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_setTrainPath">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>50</y>
+       <width>75</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>find</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -460,7 +478,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>653</width>
+     <width>743</width>
      <height>21</height>
     </rect>
    </property>

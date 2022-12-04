@@ -14,7 +14,7 @@ logs/
 *.spec
 tmp*
 deprecated/
-record/
+venv/
 
 # Compiled Java class files
 *.class
