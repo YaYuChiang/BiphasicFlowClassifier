@@ -1,0 +1,6 @@
+# use --collect-all "xgboost"  to include xgboost, or it may failed in building process
+
+SET TodayYear=%date:~0,4%
+SET TodayMonth=%date:~5,2%
+SET TodayDay=%date:~8,2%
+pyinstaller --noconfirm --distpath dist_%TodayYear%_%TodayMonth%_%TodayDay% --onedir gui_qt.py --collect-all "xgboost" 

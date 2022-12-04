@@ -1,0 +1,4 @@
+10_19	Qt暫定版, 有Test全面功能
+11_08	新增訓練功能, 針對不同experiment可以一次訓練所有的model
+11_10	排版調整
+11_14   GroupBox取代大部分的GridLayout

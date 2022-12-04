@@ -1,0 +1,26 @@
+## you use
+# pip install -r requirements.txt
+## to install the python packages as follows
+
+## in windows, you may install conda to make things easy, or pytorch will trouble you
+## use conda as you can
+# conda create --name fc37 python==3.7.10
+## native python version==3.7.10
+numpy==1.20.2
+xgboost==1.4.2
+scikit-learn==0.24.2
+scipy==1.6.2
+joblib==1.1.0
+pyqt5
+pyqt5-tools
+qtawesome
+pyinstaller
+tqdm
+
+## install pytorch you refer to this https://pytorch.org/
+## torch 1.7.1  (1.7.0 not avaliable)
+# conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pytorch
+# conda install pytorch torchvision torchaudio cpuonly -c pytorch
+## or
+# pip install torch==1.7.1+cpu torchvision==0.8.2+cpu torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+# pip install torch torchvision torchaudio
